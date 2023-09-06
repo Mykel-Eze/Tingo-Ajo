@@ -509,6 +509,9 @@ form textarea.inp-field {
 }
 
 @media(max-width: 600px) {
+    .page-title {
+        font-size: 48px;
+    }
     .contact-form-wrapper {
         padding: 20px 20px 40px;
     }
