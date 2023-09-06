@@ -22,7 +22,7 @@ const Navbar = () => {
                 <div className="nav-link-wrapper">
                     <ul className="hidden-xs">
                         <li>
-                            <a href="/#how-it-works">How it works</a>
+                            <a href="#how-it-works">How it works</a>
                         </li>
                         <li>
                             <Link to={"/contact-us"}>
@@ -48,9 +48,9 @@ const Navbar = () => {
                 <ul className="mobile-menu-dropdown">
                     <li onClick={toggleMobileMenu}>
                         {/* <a href="/#how-it-works"></a> */}
-                        <Link to={"/#how-it-works"}>
+                        <a href="#how-it-works">
                             How it works
-                        </Link>
+                        </a>
                     </li>
                     <li onClick={toggleMobileMenu}>
                         <Link to={"/contact-us"}>
