@@ -13,7 +13,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="nav-link-wrapper">
-                    <ul className="hidden-sm-xs*">
+                    <ul className="hidden-xs">
                         <li>
                             <a href="/#how-it-works">How it works</a>
                         </li>
@@ -29,6 +29,10 @@ const Navbar = () => {
                             </div>
                         </li>
                     </ul>
+
+                    <div className="visible-xs">
+                        <img src={require("../assets/images/menu.svg").default} alt="menu" className="menu-trigger" />
+                    </div>
                 </div>
             </div>
         </nav>

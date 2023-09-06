@@ -182,6 +182,36 @@ img {
     }
 }
 
+@media (max-width: 600px) {
+    .hidden-xs{
+        display: none !important;
+    }
+    .visible-xs{
+        display: block !important;
+    }
+    .text-center-xs{
+        text-align: center;
+    }
+    .text-justify-xs{
+        text-align: justify;
+    }
+    .inblock-div-xs{
+        display: inline-block;
+    }
+    .pad0-xs{
+        padding: 0 !important;
+    }
+    .left-align-xs {
+        text-align: left !important;
+    }
+    .right-align-xs {
+        text-align: right !important;
+    }
+    .block-xs {
+        display: block;
+    }
+}
+
 
 
 /*---====== Home Page Styles =======------*/
@@ -248,6 +278,19 @@ img.hero-bg-pattern {
     left: 0;
 }
 
+@media(max-width: 600px) {
+    .home-content-container {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .hero-img-side.right-align {
+        text-align: center;
+    }
+    img.hero-img {
+        width: 100%;
+    }
+}
+
 /*---==== How-It-Works Section ====----*/
 section#how-it-works {
     background-color: var(--pry-color);
@@ -302,6 +345,21 @@ section#how-it-works .section-title {
     margin-bottom: 50px;
 }
 
+@media(max-width: 992px) {
+    .hiw-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .hiw-block::before {
+        display: none;
+    }
+}
+
+@media(max-width: 600px) {
+    .hiw-wrapper {
+        grid-template-columns: 100%;
+    }
+}
+
 /*---==== Why-Choose-Ajo Section ====----*/
 section#why-choose-ajo {
     padding: 50px 0 60px;
@@ -331,6 +389,22 @@ section#why-choose-ajo {
     align-items: flex-start;
 }
 
+@media(max-width: 600px) {
+    .wca-txt-container {
+        grid-template-columns: 100%;
+        gap: 30px;
+    }
+    .container.gray-bg {
+        padding: 20px 20px 30px;
+    }
+    .container.gray-bg .section-title {
+        text-align: center;
+    }
+    .wca-img {
+        width: 100%;
+    }
+}
+
 
 /*---==== Testimonies Section ====----*/
 section#testimonies {
@@ -348,6 +422,26 @@ img.testimony-pictures {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 5px;
+}
+
+@media(max-width: 992px) {
+    .testimony-block.flex-div {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .testimony-txt {
+        order: 2;
+        flex: 1 0 100%;
+    }
+}
+
+@media(max-width: 600px) {
+    img.testimony-pictures {
+        width: 150px;
+    }
+    img.quote-icon {
+        width: 75px;
+    }
 }
 
 /*---====== Contact Page Styles =======------*/
@@ -416,7 +510,14 @@ form textarea.inp-field {
 
 @media(max-width: 600px) {
     .contact-form-wrapper {
-        padding: 15px;
+        padding: 20px 20px 40px;
+    }
+    .page-header {
+        padding: 40px 0;
+    }
+    .page-header > .container {
+        flex-direction: column;
+        align-items: self-start;
     }
 }
 

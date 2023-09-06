@@ -31,3 +31,14 @@ nav ul a:hover {
 .brand-logo-wrapper img {
     width: 100px;
 }
+
+@media(mx-width: 600px) {
+    img.menu-trigger {
+        position: relative;
+        top: 10px;
+    }
+    .brand-logo-wrapper img {
+        position: relative;
+        top: 9px;
+    }
+}
