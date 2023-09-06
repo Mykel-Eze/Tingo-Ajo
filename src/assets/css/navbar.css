@@ -1,0 +1,33 @@
+nav {
+    padding: 10px 0;
+    height: 85px;
+    box-shadow: none;
+    background: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.brand-logo-wrapper {
+    line-height: 1;
+}
+nav ul a {
+    color: var(--pry-color);
+    font-size: 14px;
+    background: transparent !important;
+}
+nav ul a:hover {
+    font-weight: bold;
+}
+.nav-country.flex-div {
+    gap: 5px;
+    margin-left: 6px;
+    font-size: 14px;
+    cursor: default;
+    color: #2A285F;
+}
+.brand-logo-wrapper img {
+    width: 100px;
+}

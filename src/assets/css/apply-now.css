@@ -1,0 +1,48 @@
+div#apply-now-widget {
+    border-radius: 16px;
+    background: #2C555B;
+    color: white;
+    padding: 30px 0 80px;
+    position: relative;
+}
+div#apply-now-widget > div.container {
+    max-width: 708px;
+}
+h1.anw-title {
+    font-size: 48px;
+    line-height: normal;
+    font-weight: 700;
+    font-family: var(--font);
+    margin-bottom: 24px;
+}
+.anw-description {
+    font-family: var(--font-light);
+    font-size: 18px;
+    margin: 0 auto 32px;
+    max-width: 641px;
+}
+button.apply-form-trigger {
+    border-radius: 4px;
+    background: var(--sec-color);
+    border: none;
+    width: 290px;
+    height: 48px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+img.bg-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media(max-width: 600px) {
+    h1.anw-title {
+        font-size: 32px;
+    }
+    .anw-description {
+        font-size: 16px;
+    }
+}
