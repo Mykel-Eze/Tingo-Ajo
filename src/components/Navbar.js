@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="container flex-div justify-content-btw">
                 <div className="brand-logo-wrapper">
                     <Link to="/">
-                        <img src={require("../assets/images/Ajo-logo.svg").default} alt="Ajo" />
+                        <img src={require("../assets/images/ajoafricalogo.png")} alt="Ajo Africa" />
                     </Link>
                 </div>
 

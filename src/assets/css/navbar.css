@@ -29,7 +29,7 @@ nav ul a:hover {
     color: #2A285F;
 }
 .brand-logo-wrapper img {
-    width: 100px;
+    width: 160px;
 }
 
 .menu {
@@ -37,14 +37,14 @@ nav ul a:hover {
     overflow: hidden;
 }
 @media(max-width: 600px) {
-    img.menu-trigger {
+    /* img.menu-trigger {
         position: relative;
         top: 10px;
     }
     .brand-logo-wrapper img {
         position: relative;
         top: 9px;
-    }
+    } */
     .menu {
         position: fixed;
         width: 100%;

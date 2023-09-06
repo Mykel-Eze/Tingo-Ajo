@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="footer-desc flex-1">
                     <div>
                         <Link to={"/"}>
-                            <img src={require("../assets/images/footer-logo.svg").default} alt="Ajo" className="footer-logo" />
+                            <img src={require("../assets/images/ajoafricalogo.png")} alt="Ajo" className="footer-logo" />
                         </Link>
                         <div className="footer-desc-txt">
                             Ajö is a loan offering platform that offers a wide range of features to enhance your
