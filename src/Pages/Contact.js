@@ -4,26 +4,29 @@ import M from 'materialize-css'
 import ApplyNowWidget from "../components/ApplyNowWidget";
 
 const Contact = () => {
-    const [formData, setFormData] = useState({
+    const initialFormData = {
         name: '',
         email: '',
         subject: '',
         message: '',
-      });
+    };
     
-      const handleChange = (e) => {
+    const [formData, setFormData] = useState(initialFormData);
+    
+    const handleChange = (e) => {
         const { id, value } = e.target;
         setFormData({
           ...formData,
           [id]: value,
         });
-      };
+    };
     
-      const handleSubmit = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        // Here, you can handle form submission, e.g., sending data to a server or displaying a confirmation message.
-        M.toast({html: 'Message sent successfully'})
-      };
+
+        M.toast({html: 'Message sent successfully'});
+        setFormData(initialFormData);
+    };
 
     return (
         <div className="page-content-wrapper">

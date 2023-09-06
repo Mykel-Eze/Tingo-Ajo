@@ -17,7 +17,9 @@ const Home = () => {
                                     flexible repayment plan.
                                 </div>
                                 <div className="home-btn-wrapper">
-                                    <button className="hb-apply-btn hover-scale">Apply Now</button>
+                                    <button className="hb-apply-btn hover-scale modal-trigger" data-target="apply-now-modal">
+                                        Apply Now
+                                    </button>
                                     <Link to={"/contact-us"} className="flex-div hb-talk-btn hover-scale">
                                         <span>Talk to us</span>
                                         <img src={require("../assets/images/chevron-right.svg").default} alt="chevron-right" className="right-arr" />

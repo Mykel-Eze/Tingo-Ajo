@@ -410,15 +410,29 @@ form input.inp-field, form textarea.inp-field {
 form textarea.inp-field {
     min-height: 120px;
 }
-.input-field>label {
-    left: 15px;
-}
-.input-field>label.active {
-    left: 0;
+.input-field>label:not(.active) {
+    left: 15px !important;
 }
 
 @media(max-width: 600px) {
     .contact-form-wrapper {
         padding: 15px;
     }
+}
+
+/*---====== Application Modal Styles =======------*/
+div#apply-now-modal {
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    top: 0 !important;
+}
+#apply-now-modal .form-header {
+    max-width: 446px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#apply-now-modal .contact-form-wrapper {
+    border: none;
+    padding: 0;
 }

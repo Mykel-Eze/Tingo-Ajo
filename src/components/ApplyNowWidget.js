@@ -12,7 +12,7 @@ const ApplyNowWidget = () => {
                     Your journey to financial freedom starts here. Join the individuals who have
                     already benefited from our program.
                 </div>
-                <button className="apply-form-trigger hover-scale">
+                <button className="apply-form-trigger hover-scale modal-trigger" data-target="apply-now-modal">
                     Apply Now
                 </button>
             </div>
